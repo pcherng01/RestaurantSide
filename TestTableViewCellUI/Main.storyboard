@@ -42,6 +42,11 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Reservation List" id="yc2-Ca-UVP">
                         <barButtonItem key="backBarButtonItem" title="Back" id="NkO-mV-qcY"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="dwX-L7-CAa">
+                            <connections>
+                                <action selector="referesh:" destination="vub-oR-UGA" id="0m8-tf-eXP"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AmI-Tb-bqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -67,7 +72,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Amount" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Skf-FG-t8f">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Amount" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Skf-FG-t8f">
                                 <rect key="frame" x="180" y="309" width="108" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>

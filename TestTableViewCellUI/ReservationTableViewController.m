@@ -16,6 +16,14 @@
 @end
 
 @implementation ReservationTableViewController
+{
+  
+    int currentObjectCounts;
+}
+
+- (IBAction)referesh:(id)sender {
+    [self loadInitialData];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -29,12 +37,15 @@
     [self loadInitialData];
 }
 
+
+
 - (void)loadInitialData {
     PFQuery *query = [PFQuery queryWithClassName:@"ReservationList"];
     [query selectKeys:@[@"customerName"]];
     [query findObjectsInBackgroundWithBlock:^(NSArray *namesArray, NSError *error) {
-        
+        [self.reservationArray removeAllObjects];
         for (PFObject *object in namesArray) {
+            currentObjectCounts = [namesArray count];
             Reservation *resvr= [[Reservation alloc]init];
             NSString *name =[object objectForKey:@"customerName"];
             resvr.name = name;
@@ -135,9 +146,9 @@
         currentInstallation.channels = @[@"global"];
         [currentInstallation saveInBackground];
         PFQuery *pushQuery = [PFInstallation query];
-        NSLog(@"toekn: %@", theDeviceToken);
+     //   NSLog(@"toekn: %@", theDeviceToken);
         [pushQuery whereKey:@"deviceType" equalTo:@"ios"];
-        [PFPush sendPushMessageToQueryInBackground:pushQuery withMessage:@"YOLOSWAG"];
+        [PFPush sendPushMessageToQueryInBackground:pushQuery withMessage:@"Your reservation has been confirmed!"];
         NSLog(@"No error");
         
         selectedCell.accessoryType = UITableViewCellAccessoryCheckmark;
