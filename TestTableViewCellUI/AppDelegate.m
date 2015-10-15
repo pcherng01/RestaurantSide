@@ -21,8 +21,8 @@
    [Parse enableLocalDatastore];
    
    // Initialize Parse.
-  [Parse setApplicationId:@"sjtUr7NHPi9fBPDUVvgu7Kbu3LV1lDuhTwgW7Zzg"
-                clientKey:@"GIuTHWURkjaxV28rjj3y60KkHKYzQrvOcBtALH3t"];
+  [Parse setApplicationId:@"c2TKa2Ywg5BlwI3e6fB2f7WMzFs5oxxhlNrzTs4y"
+                clientKey:@"SXhVtoEv2IwYNNaqOTArlOZkgvsdZx3KpMc8xksm"];
    return YES;
 }
 
