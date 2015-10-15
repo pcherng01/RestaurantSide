@@ -17,7 +17,11 @@
 
 @implementation ReservationTableViewController
 {
+<<<<<<< HEAD
     
+=======
+  
+>>>>>>> 9c077ef92b8c5a3396938b5944d71794a9f12ff1
     int currentObjectCounts;
 }
 
@@ -146,7 +150,11 @@
         currentInstallation.channels = @[@"global"];
         [currentInstallation saveInBackground];
         PFQuery *pushQuery = [PFInstallation query];
+<<<<<<< HEAD
         //   NSLog(@"toekn: %@", theDeviceToken);
+=======
+     //   NSLog(@"toekn: %@", theDeviceToken);
+>>>>>>> 9c077ef92b8c5a3396938b5944d71794a9f12ff1
         [pushQuery whereKey:@"deviceType" equalTo:@"ios"];
         [PFPush sendPushMessageToQueryInBackground:pushQuery withMessage:@"Your reservation has been confirmed!"];
         NSLog(@"No error");

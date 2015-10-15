@@ -42,9 +42,15 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Reservation List" id="yc2-Ca-UVP">
                         <barButtonItem key="backBarButtonItem" title="Back" id="NkO-mV-qcY"/>
+<<<<<<< HEAD
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="9kt-Df-XqR">
                             <connections>
                                 <action selector="referesh:" destination="vub-oR-UGA" id="YxT-gY-Iap"/>
+=======
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="dwX-L7-CAa">
+                            <connections>
+                                <action selector="referesh:" destination="vub-oR-UGA" id="0m8-tf-eXP"/>
+>>>>>>> 9c077ef92b8c5a3396938b5944d71794a9f12ff1
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -72,7 +78,11 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+<<<<<<< HEAD
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Total" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Skf-FG-t8f">
+=======
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Amount" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Skf-FG-t8f">
+>>>>>>> 9c077ef92b8c5a3396938b5944d71794a9f12ff1
                                 <rect key="frame" x="180" y="309" width="108" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
