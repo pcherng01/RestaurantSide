@@ -353,11 +353,11 @@
 				);
 				INFOPLIST_FILE = TestTableViewCellUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-<<<<<<< HEAD
+
 				PRODUCT_BUNDLE_IDENTIFIER = leaf.cherng.ParseTestNotification1;
-=======
+
 				PRODUCT_BUNDLE_IDENTIFIER = leaf.cherng.ParseTestNotificationz;
->>>>>>> 9c077ef92b8c5a3396938b5944d71794a9f12ff1
+ 9c077ef92b8c5a3396938b5944d71794a9f12ff1
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos9.0;
@@ -377,11 +377,11 @@
 				);
 				INFOPLIST_FILE = TestTableViewCellUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-<<<<<<< HEAD
+
 				PRODUCT_BUNDLE_IDENTIFIER = leaf.cherng.ParseTestNotification1;
-=======
+
 				PRODUCT_BUNDLE_IDENTIFIER = leaf.cherng.ParseTestNotificationz;
->>>>>>> 9c077ef92b8c5a3396938b5944d71794a9f12ff1
+ 9c077ef92b8c5a3396938b5944d71794a9f12ff1
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos9.0;
